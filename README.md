@@ -10,8 +10,9 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 * Create and use Avatar using a Mobile Application.
 * Integrate Watson Assistant and Python Flask application using Webhooks. 
-* Customize based on the personal requirements.
+* Integrate DialogueFlow using webhooks 
 * Create a dynamic real time chatbot.
+* Integrate Blockchain Fabric 2.2 with UXTO Account mint functions; use Hyperledger Blockchain Labs and Blockchain Automation Framework for Cross Chain interoperability 
 
 <!--add an image in this path-->
 ![](doc/source/images/architecture.png)
@@ -80,7 +81,7 @@ Create the following services:
 * [**Mobile Foundation**](https://cloud.ibm.com/catalog/services/mobile-foundation): Create a Mobile Foundation instance on Your IBM Cloud.
 
 ### 3. Update the details in the Backend Flask Application
-* Visit the url [Zomato API](https://developers.zomato.com/api) to generate the Api Key for running the application. 
+* Visit the url [Zomato API](https://developers.zomato.com/api) to generate the Api Key for running the application. **** Substitute GIS 
 * hit the green colored button `Generate API KEY `.
 * Fill the information form. And you will get the `API KEY`. Copy it to Clipboard.
 * Open the [Python Flask File](https://github.ibm.com/raravi86/Avatar/blob/master/flask-api/app.py), go to line number 35 of     the code in the function `getRestaurants(coordinates)` and update the user-key which you have generated in the above step.
